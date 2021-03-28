@@ -29,6 +29,24 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+##LIBRARIES
+
+import React, { useState } from "react";
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
+import Loader from "react-loader-spinner";
+
+import { makeStyles } from "@material-ui/core/styles";
+import TextField from "@material-ui/core/TextField";
+import Button from "@material-ui/core/Button";
+import Table from '@material-ui/core/Table';
+import TableBody from '@material-ui/core/TableBody';
+import TableCell from '@material-ui/core/TableCell';
+import TableContainer from '@material-ui/core/TableContainer';
+import TableHead from '@material-ui/core/TableHead';
+import TableRow from '@material-ui/core/TableRow';
+import Paper from '@material-ui/core/Paper';
+import { requirePropFactory } from "@material-ui/core";
+
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
